@@ -10,6 +10,7 @@ const pressLogin = () => {
   navigation.navigate('Login')
 }
 
+
 return (
     <View style={styles.container}>
       <Text style={styles.boldText}>Welcome To MyHealth</Text>
@@ -19,6 +20,7 @@ return (
       
       <Button title='Get Started' onPress={pressGetStarted}></Button>
       <Button title='Login' onPress={pressLogin}></Button>
+      
       
       </View>
 
